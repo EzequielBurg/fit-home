@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="80" fill="#0f0f23"/>
+  <g transform="translate(128, 128)">
+    <!-- Dumbbell icon -->
+    <rect x="20" y="120" width="216" height="16" rx="8" fill="#22c55e"/>
+    <rect x="0" y="100" width="40" height="56" rx="20" fill="#22c55e"/>
+    <rect x="216" y="100" width="40" height="56" rx="20" fill="#22c55e"/>
+    
+    <!-- Trophy/home icon elements -->
+    <path d="M128 80L180 40L128 0L76 40Z" fill="#fbbf24"/>
+    <rect x="108" y="80" width="40" height="60" fill="#fbbf24"/>
+    <rect x="118" y="100" width="20" height="40" fill="#0f0f23"/>
+  </g>
+</svg>
