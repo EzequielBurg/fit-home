@@ -9,7 +9,6 @@ import { workoutData, WorkoutDay, Exercise, getTodayWorkout } from '@shared/work
 import { 
   Calendar, 
   Trophy, 
-  Target, 
   CheckCircle2, 
   Clock,
   Dumbbell,
@@ -19,7 +18,6 @@ import {
 export const WorkoutApp: React.FC = () => {
   const [selectedDay, setSelectedDay] = useState<WorkoutDay | null>(null);
   const [completedExercises, setCompletedExercises] = useState<Set<string>>(new Set());
-  const [showTimer, setShowTimer] = useState(false);
 
   useEffect(() => {
     const today = getTodayWorkout();
@@ -84,7 +82,7 @@ export const WorkoutApp: React.FC = () => {
             </CardTitle>
           </CardHeader>
           <CardContent className='flex-1'>
-            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-2">
               {workoutData.map((day) => (
                 <Button
                   key={day.id}

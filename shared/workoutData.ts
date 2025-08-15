@@ -82,15 +82,6 @@ export const workoutData: WorkoutDay[] = [
       { id: 'fri-6', name: 'Prancha', sets: '4 rodadas', reps: '45s', completed: false }
     ]
   },
-  {
-    id: 'saturday',
-    name: 'Sábado',
-    title: 'Mobilidade / Yoga (Opcional)',
-    exercises: [
-      { id: 'sat-1', name: 'Alongamento geral', sets: '1x', reps: '15-30 min', completed: false },
-      { id: 'sat-2', name: 'Yoga / Pilates', sets: '1x', reps: '20-40 min', completed: false }
-    ]
-  },
 ];
 
 export const getTodayWorkout = (): WorkoutDay | null => {
