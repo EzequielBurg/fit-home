@@ -31,19 +31,6 @@ export const workoutData: WorkoutDay[] = [
   {
     id: 'tuesday',
     name: 'Terça',
-    title: 'Costas + Bíceps',
-    exercises: [
-      { id: 'tue-1', name: 'Remada curvada com barra montada', sets: '4x', reps: '12', completed: false },
-      { id: 'tue-2', name: 'Remada unilateral com halter', sets: '3x', reps: '12 cada lado', completed: false },
-      { id: 'tue-3', name: 'Pullover com halter deitado', sets: '3x', reps: '15', completed: false },
-      { id: 'tue-4', name: 'Rosca direta com barra', sets: '3x', reps: '12', completed: false },
-      { id: 'tue-5', name: 'Rosca alternada com halteres', sets: '3x', reps: '12', completed: false },
-      { id: 'tue-6', name: 'Rosca martelo com halteres', sets: '3x', reps: '12', completed: false }
-    ]
-  },
-  {
-    id: 'wednesday',
-    name: 'Quarta',
     title: 'Pernas + Glúteos + Abdômen',
     exercises: [
       { id: 'wed-1', name: 'Agachamento com barra', sets: '4x', reps: '12', completed: false },
@@ -53,6 +40,19 @@ export const workoutData: WorkoutDay[] = [
       { id: 'wed-5', name: 'Panturrilha em pé com halteres', sets: '3x', reps: '20', completed: false },
       { id: 'wed-6', name: 'Abdominal bicicleta', sets: '3x', reps: '20', completed: false },
       { id: 'wed-7', name: 'Prancha lateral', sets: '3x', reps: '30s cada lado', completed: false }
+    ]
+  },
+  {
+    id: 'wednesday',
+    name: 'Quarta',
+    title: 'Costas + Bíceps',
+    exercises: [
+      { id: 'tue-1', name: 'Remada curvada com barra montada', sets: '4x', reps: '12', completed: false },
+      { id: 'tue-2', name: 'Remada unilateral com halter', sets: '3x', reps: '12 cada lado', completed: false },
+      { id: 'tue-3', name: 'Pullover com halter deitado', sets: '3x', reps: '15', completed: false },
+      { id: 'tue-4', name: 'Rosca direta com barra', sets: '3x', reps: '12', completed: false },
+      { id: 'tue-5', name: 'Rosca alternada com halteres', sets: '3x', reps: '12', completed: false },
+      { id: 'tue-6', name: 'Rosca martelo com halteres', sets: '3x', reps: '12', completed: false }
     ]
   },
   {

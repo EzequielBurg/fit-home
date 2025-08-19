@@ -19,6 +19,7 @@ export const RestTimer: React.FC = () => {
     } else if (timeLeft === 0) {
       setIsRunning(false);
       playAlarmSound();
+      resetTimer();
     }
 
     return () => {
@@ -82,7 +83,6 @@ export const RestTimer: React.FC = () => {
 
   const addTime = (seconds: number) => {
     setTimeLeft((time) => time + seconds);
-    setInitialTime((time) => time + seconds);
   };
 
   const formatTime = (seconds: number) => {
@@ -152,7 +152,7 @@ export const RestTimer: React.FC = () => {
             size="sm"
             className="text-xs"
           >
-            <Plus className="w-3 h-3 mr-1" />
+            <Plus className="w-3 h-3" />
             +10s
           </Button>
           <Button
@@ -161,7 +161,7 @@ export const RestTimer: React.FC = () => {
             size="sm"
             className="text-xs"
           >
-            <Plus className="w-3 h-3 mr-1" />
+            <Plus className="w-3 h-3" />
             +30s
           </Button>
           <Button
@@ -170,7 +170,7 @@ export const RestTimer: React.FC = () => {
             size="sm"
             className="text-xs"
           >
-            <Plus className="w-3 h-3 mr-1" />
+            <Plus className="w-3 h-3" />
             +50s
           </Button>
         </div>
